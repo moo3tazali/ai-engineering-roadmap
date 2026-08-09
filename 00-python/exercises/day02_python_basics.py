@@ -8,4 +8,6 @@ subtotal = unit_price * quantity
 discount = subtotal * discount_percentage / 100
 final_total = subtotal - discount
 
-print(f"{quantity} x {product_name} @ {unit_price:.2f} EGP = {final_total:.2f} after {discount_percentage:g}% discount")
+print(
+    f"{quantity} x {product_name} @ {unit_price:.2f} EGP = {final_total:.2f} after {discount_percentage:g}% discount"
+)
